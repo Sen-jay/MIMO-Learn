@@ -24,7 +24,7 @@ def mix(first, second,third):
     return first + second + third
 
 result = mix("big", "bad","wolf")
-print(result);
+print(result)
 
 def create_email(name, year):
     return name + year + "@hutmail.com"
