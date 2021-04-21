@@ -50,3 +50,59 @@ def get_watting_list(signups):
 
 get_watting_list(100)
 
+def calculate(operator, x, y):
+    if operator == "+":
+        print(x + y)
+    else:
+        print(f"unknown: {operator}")
+
+calculate("-", 30, 10)
+
+def calculate(operator, x, y):
+    if operator == "+":
+        print(x + y)
+    elif operator == "-":
+        print(x - y)
+    else:
+        print(f"unknown: {operator}")
+
+calculate("-", 30, 10)
+
+def show_progress(points):
+    if points > 1000:
+        print("New highest score")
+    print("Ready for the next level?")
+
+show_progress(900)
+
+def show_status(inbox):
+    if inbox > 1000:
+        print("Inbox full!")
+    print("You have new messages!")
+
+show_status(900)
+
+def show_status(inbox):
+    if inbox > 1000:
+        print("Inbox full!")
+    print("You have new messeges!")
+
+show_status(1200)
+
+def show_notifications(score):
+    if score < 30:
+        print("Score too low")
+    else:
+        print("Onto the next level!")
+
+show_notifications(40)
+
+def show_score(score):
+    if score < 30:
+        print("Score too low")
+    elif score == 100:
+        print("Top score1")
+    else:
+        print("Onto the next level!")
+
+show_score(100)
