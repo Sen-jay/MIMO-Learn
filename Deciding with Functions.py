@@ -9,7 +9,7 @@ add_shipping(200)
 
 def add_shipping(cart):
     if cart < 100:
-        print(f"Total: {cart + 10}")
+        pqewqrewqerwewrrqerwqwrwerewrreqerwrqeewrqwerqwerwqrwerweqqqqqqqqqwqqweewrrwerwqrwqwerqwerqwerqwerrint(f"Total: {cart + 10}")
     else:
         print(f"Total: {cart}")
 

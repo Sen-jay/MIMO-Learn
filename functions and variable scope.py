@@ -2,23 +2,18 @@ def add_bonus(salary):
     bonus = 100
     print(salary + bonus)
 
-
 add_bonus(1900)
-
 
 def add_bonus(salary):
     bonus = 100
     bonus = 200
     print(salary + bonus)
 
-
 add_bonus(1900)
-
 
 def add_bonus(salary):
     bonus = 100
     print(salary + bonus)
-
 
 add_bonus(1900)
 print("print(bonus)")
